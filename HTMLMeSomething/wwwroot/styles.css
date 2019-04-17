@@ -1,16 +1,6 @@
-﻿/*Use margin and padding to space your elements in a visually pleasing way.
-Use at least one of each of the following types of selectors: element, class, id.
-
-    See: http://www.csszengarden.com/
-*/
-
-body {
+﻿body {
     margin: 0;
-}
-
-img {
-    width: 70%;
-    max-width: 270px;
+    background-color: #59bc38;
 }
 
 .scrolling-wrapper-flexbox {
@@ -26,6 +16,7 @@ img {
     flex: 0 0 auto;
     padding: 0px;
     width: 40%;
+    min-width: 400px;
     text-align: center;
 }
 
@@ -36,20 +27,33 @@ p {
     text-align:left;
 }
 
+img {
+    max-height: 100%;
+    width: 50%;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+#oklahoma {
+    font-size: 1.33em;
+}
+
 h2 {
     font-size: 1.5em;
-    margin: 0.67em 0;
+    margin: 0.5em;
 }
 
 .sign {
     background-color: #009900;
     border-radius: 8px;
-    padding: 5px;
+    padding: 1%;
     width: 70%;
     max-width: 300px;
     border: 5px solid white;
     font-family: 'Overpass', sans-serif;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .schoolSign {
@@ -86,9 +90,12 @@ h2 {
 .grass {
     background-color: #59bc38;
     height: 28%;
-    padding: 5%;
+    padding: 3%;
 }
 
+#cloud {
+    max-width: 200px;
+}
 
 #bottom_c1 {
     position: absolute;
